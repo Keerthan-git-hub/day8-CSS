@@ -1,0 +1,302 @@
+#navbar1{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(95, 95, 249) ;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#navbar1 > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar1 > span{
+    padding: 5px 10px;
+    border-radius: 20%;
+    background-color: orangered;
+    color: white;
+}
+#navbar2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(95, 95, 249);
+    border-bottom-left-radius: 170px;
+    border-bottom-right-radius: 170px;
+}
+#welcome{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+#welcome > span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#welcome > p{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+#welcome > h1{
+    font-size: 40px;
+    color: white;
+}
+#img1 > img{
+    margin-top: 100px;
+}
+#searchbar{
+    width: 80%;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    padding: 10px 2px 10px 10px;
+    border-radius: 30px;
+}
+#searchbar > input{
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#searchbar > span{
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 14px 17px 10px 17px;
+    background-color: orangered;
+}
+#img1{
+
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 60px;
+}
+#card1 > div > img{
+    background-color:rgb(95, 95, 249) ;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(150, 138, 138);
+    margin-left: 20px;
+}
+#card1{
+    background-color: white;
+    padding: 40px 80px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(150, 138, 138);
+}
+#Trending{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#Trending > #span1{
+    color: orangered;
+}
+#Trending > #span2{
+    padding: 10px 25px;
+    background-color: orangered;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 1000px;
+    top: 65px;
+}
+
+#navbar3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+#img1{
+    height: 300px;
+    background-color: rgb(238,238,238);
+    border-radius: 20px;
+}
+#img1 > img{
+    border-radius: 20px;
+}
+#img1 > p{
+    margin-left: 120px;
+    font-weight: 100;
+}
+#img1 > h3{
+    margin-left: 100px;
+}
+#navbar4{
+    background-color: rgb(247,247,247);
+    border-radius: 100px;
+    height: 500px;
+}
+#navbar4 > #topgames{
+    margin-top: 50px;
+}
+#topgames{
+    margin-left: 100px;
+}
+#topgames > #spangames{
+    color: orangered;
+}
+#topgames > #veiw{
+    padding: 10px 25px;
+    background-color: orangered;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 1000px;
+    top: 50px;
+}
+#games{
+    display: flex;
+    justify-content: space-evenly;
+}
+#game1{
+    background-color: rgb(238,238,238);
+    border-radius: 20px;
+}
+#game1 > span{
+    padding: 5px 10px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-left: 45px;
+}
+#navbar5{
+    margin-top: 100px;
+}
+#navbar5 > #categories > span{
+    align-items: center;
+    color: orangered;
+    margin-left: 700px;  
+}
+#navbar5 > #categories > h1{
+    align-items: center;
+    margin-left: 650px; 
+}
+#topgames2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topgame1{
+    border-radius: 40px;
+}
+.topgame1 > p{
+    margin-left: 90px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.topgame1 > img{
+    margin: none;
+    border-radius: 40px;
+}
+#topgames2 > .topgame1{
+    background-color:rgb(95, 95, 249);
+}
+#navbar6{
+    display: flex;
+    margin-top: 100px;
+}
+#ourshop{
+    background-color: rgb(247,247,247);
+    width: 30%;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    top: 150px;
+}
+#navbar6 > #ourshop > span{
+    
+    margin: 50px 0px 0px 30px;
+}
+#navbar6 > #ourshop > h1{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#navbar6 > #ourshop > p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.shopnow{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+#imgage > img{
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+}
+#newsletter{
+    background-color: rgb(247,247,247);
+    width: 30%;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: 80px;
+    top: 100px;
+}
+#newsletter > span{
+    color: orangered;
+}
+#newsletter > h1{
+    font-size: 35px;
+}
+#Subscribe{
+    width: 80%;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    padding: 10px 2px 10px 10px;
+    border-radius: 30px;
+}
+#Subscribe > input{
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#Subscribe > span{
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 14px 17px 10px 17px;
+    background-color: orangered;
+    color: white;
+}
+#navbar7{
+    background-color:rgb(95, 95, 249);
+    height: 130px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+}
+#navbar7 > p{
+    padding: 30px 0px;
+    font-size: 19px;
+}
+
+
+
